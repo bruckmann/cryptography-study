@@ -1,8 +1,8 @@
-package src
+package caesar
 
 //There are better ways to write this algorithm, but for educational purposes, we will do this way
 
-func CeaserCipher(cleanText *string) string {
+func Crypt(cleanText *string) string {
 
 	// n[0] == a[0] = n[0] = a[0 + 3]
 
