@@ -13,7 +13,7 @@ Inside the `src` folder will be all the encryption algorithms, and inside the `d
 
 ## Authors
 
-- [@bruckmann](https://www.github.com/octokatherine)
+- [@bruckmann](https://www.github.com/bruckmann)
 
 
 ## Running Tests
