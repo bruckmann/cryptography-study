@@ -1,12 +1,8 @@
 package src
 
-import "fmt"
-
 func CeaserCipher(cleanText *string) string {
 
 	// n[0] == a[0] = n[0] = a[3]
-	// ophhw oph diwhu wkh wrjd sduwb
-
 	chars := []rune(*cleanText)
 
 	alphabet := []string{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"}
@@ -15,8 +11,6 @@ func CeaserCipher(cleanText *string) string {
 	var cipherText string
 
 	for i := 0; i < len(chars); i++ {
-
-		fmt.Println(string(chars[i]))
 
 		if string(chars[i]) == " " {
 			cipherText += " "
@@ -35,7 +29,5 @@ func CeaserCipher(cleanText *string) string {
 			}
 		}
 	}
-
-	fmt.Println(cipherText)
 	return cipherText
 }
