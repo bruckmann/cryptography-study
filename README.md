@@ -21,10 +21,10 @@ Inside the `src` folder will be all the encryption algorithms, and inside the `d
 To run tests, run the following commands
 
 
-Go to the project directory
+Go to the tests directory
 
 ```bash
-  cd cryptography-study
+  cd cryptography-study/tests
 ```
 
 Run tests
