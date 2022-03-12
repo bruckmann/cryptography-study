@@ -1,7 +1,7 @@
 
 # Cryptography studies
 
-Repository with the basics of encryption and some algorithms and encryption.
+Repository with the basics of encryption and some algorithms of encryption.
 
 Inside the `src` folder will be all the encryption algorithms, and inside the `docs` folder will be the study material about each algorithm.
 
