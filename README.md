@@ -1,6 +1,34 @@
-# cryptography-study
 
-This repository will be used for encryption algorithms and college security studies.
+# Cryptography studies
 
-# Resourcers
-The main language for this algorithms will be `go`.
+Repository with the basics of encryption and some algorithms and encryption.
+
+Inside the `src` folder will be all the encryption algorithms, and inside the `docs` folder will be the study material about each algorithm.
+
+
+## Tech Stack
+
+**Alorithms:** Go
+
+
+## Authors
+
+- [@bruckmann](https://www.github.com/octokatherine)
+
+
+## Running Tests
+
+To run tests, run the following commands
+
+
+Go to the project directory
+
+```bash
+  cd cryptography-study
+```
+
+Run tests
+
+```bash
+  go test
+```
